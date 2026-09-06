@@ -1,4 +1,4 @@
-# DSA Resource Sheet
+# GDG - DSA Resource Sheet
 *Curated for GDG DSA Workshop — First Year BE Students*
 
 Bookmark this. You don't need all of these — pick 1-2 from each section and stick with them.
