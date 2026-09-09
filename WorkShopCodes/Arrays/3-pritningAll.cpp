@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     int arr[5] = {4, 7, 2, 9, 5};
-
+    int n = sizeof(arr)/sizeof(arr[0]);
     /*
     //using multiple print statements:
     cout<<arr[0]<<' ';
@@ -14,8 +14,11 @@ int main(){
     cout<<arr[4]<<' ';
     */
 
-    
-    for(int i=0; i<5; i++){
+    for(int i=0; i<n; i++){
+        cin>>arr[i];
+    }
+
+    for(int i=0; i<n; i++){
         cout<<arr[i]<<' ';
     }
 
