@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int prices[] = {7, 1, 5, 3, 6, 4, 8, 2};
+    int n = 8;
+
+    int maxProfit = 0;
+
+    for (int buy = 0; buy < n; buy++) {
+        for (int sell = buy + 1; sell < n; sell++) {
+            int profit = prices[sell] - prices[buy];
+
+            if (profit > maxProfit) {
+                maxProfit = profit;
+            }
+        }
+    }
+
+    cout << "Maximum Profit = " << maxProfit;
+
+    return 0;
+}
